@@ -1,0 +1,183 @@
+@charset "UTF-8";
+:root {
+  --color-red: #ff4747;
+  --color-orange: #e6ac2f;
+  --color-yellow: #f8ff99;
+  --color-green: #9bffa0;
+  --color-skyblue: #8fd6ff;
+  --color-purple: #c018d6;
+}
+
+@font-face {
+  font-family: "EliceDigitalBaeum_Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EliceDigitalBaeum_Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "EliceDigitalBaeum_Bold";
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  background-color: #272727;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.myNameIsHaesollaKim {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 100%;
+  height: 100%;
+  transition: 2s;
+}
+
+svg text {
+  font-size: 6rem;
+  stroke-width: 3px;
+  stroke: #ffffff;
+  stroke-dashoffset: 1000;
+  stroke-dasharray: 1000;
+  fill: transparent;
+  animation: stroke 1.5s linear;
+  animation-fill-mode: forwards;
+}
+svg text:nth-child(1) {
+  stroke: var(--color-red);
+  animation-delay: 0s;
+}
+svg text:nth-child(2) {
+  stroke: var(--color-orange);
+  animation-delay: 1s;
+}
+svg text:nth-child(3) {
+  stroke: #c018d6;
+  animation-delay: 0.5s;
+}
+svg text:nth-child(4) {
+  stroke: #9bffa0;
+  animation-delay: 0s;
+}
+svg text:nth-child(5) {
+  stroke: #8fd6ff;
+  animation-delay: 1s;
+}
+svg text:nth-child(6) {
+  stroke: #f8ff99;
+  animation-delay: 1.5s;
+}
+svg text:nth-child(7) {
+  stroke: #ff4747;
+  animation-delay: 1.5s;
+}
+svg text:nth-child(8) {
+  stroke: #9bffa0;
+  animation-delay: 0.5s;
+}
+svg text:nth-child(9) {
+  stroke: #c018d6;
+  animation-delay: 0s;
+}
+svg text:nth-child(10) {
+  stroke: #8fd6ff;
+  animation-delay: 1s;
+}
+svg text:nth-child(11) {
+  stroke: #e6ac2f;
+  animation-delay: 0.5s;
+}
+
+@keyframes stroke {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+.main-section {
+  width: 100%;
+  display: none;
+  padding: 5% 20%;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  /* 인터넷 익스플로러 */
+  scrollbar-width: none;
+  /* 파이어폭스 */
+}
+.main-section::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  border: 3px solid transparent;
+}
+
+[class^=bubble] {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 200px;
+  border-radius: 25px;
+  background-color: #fff;
+  font-size: 3rem;
+}
+
+[class^=bubble] a {
+  color: #000;
+  text-decoration: none;
+}
+
+[class^=tail] {
+  position: absolute;
+  bottom: -77.5px;
+  right: 70px;
+  width: 0;
+  height: 0;
+  border-top: #fff solid 75px;
+  border-left: transparent solid 50px;
+  border-right: transparent solid 50px;
+  border-bottom: transparent solid 50px;
+}
+
+.bubble-1 {
+  background-color: #71d7ff;
+}
+
+.tail-1 {
+  border-top: #71d7ff solid 75px;
+}
+
+.bubble-2 {
+  background-color: #ffff87;
+}
+
+.tail-2 {
+  left: 70px;
+  border-top: #ffff87 solid 75px;
+}
+
+.bubble-3 {
+  background-color: #ba0c2f;
+}
+
+.tail-3 {
+  border-top: #ba0c2f solid 75px;
+}/*# sourceMappingURL=style.css.map */
