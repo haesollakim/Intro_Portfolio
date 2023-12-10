@@ -40,6 +40,7 @@ body {
     transition: 0.5s;
 }
 
+/* Scalable Vector Graphics */
 .myNameIsHaesollaKim {
     display: flex;
     align-items: center;
@@ -127,6 +128,7 @@ svg {
     }
 }
 
+/* 인트로 섹션 */
 .intro_section {
     display: none;
     width: 100%;
@@ -140,6 +142,7 @@ svg {
     }
 }
 
+/* 말풍선 */
 [class^="bubble"] {
     display: flex;
     justify-content: center;
@@ -174,29 +177,31 @@ svg {
     z-index: 99;
 }
 
+/* 더 갤러리 */
 .bubble_1 {
     background-color: var(--color-skyblue);
     margin-left: auto;
 }
-
 .tail_1 {
     border-top: var(--color-skyblue) solid 75px;
 }
 
+
+/* 팝업스토어 */
 .bubble_2 {
     background-color: var(--color-yellow);
 }
-
 .tail_2 {
     left: 70px;
     border-top: var(--color-yellow) solid 75px;
 }
 
+
+/*수원한국어학원*/
 .bubble_3 {
     background-color: var(--color-red);
     margin-left: auto;
 }
-
 .tail_3 {
     border-top: var(--color-red) solid 75px;
 }
