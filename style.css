@@ -145,6 +145,7 @@ svg text:nth-child(11) {
   z-index: 101;
 }
 
+/* 말풍선 꼬리 */
 [class^=tail] {
   position: absolute;
   bottom: -77.5px;

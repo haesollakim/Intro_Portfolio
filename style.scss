@@ -40,6 +40,7 @@ body {
     transition: 0.5s;
 }
 
+
 /* Scalable Vector Graphics */
 .myNameIsHaesollaKim {
     display: flex;
@@ -128,6 +129,7 @@ svg {
     }
 }
 
+
 /* 인트로 섹션 */
 .intro_section {
     display: none;
@@ -164,6 +166,7 @@ svg {
     }
 }
 
+/* 말풍선 꼬리 */
 [class^="tail"] {
     position: absolute;
     bottom: -77.5px;
@@ -176,6 +179,7 @@ svg {
     border-bottom: transparent solid 50px;
     z-index: 99;
 }
+
 
 /* 더 갤러리 */
 .bubble_1 {
