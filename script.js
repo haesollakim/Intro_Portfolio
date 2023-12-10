@@ -8,7 +8,7 @@ setTimeout(function () {
     $(".myNameIsHaesollaKim").css({
         height: "200px",
     });
-    $(".intro_section").fadeIn(1000);
+    $(".intro").fadeIn(1000);
 }, 3000);
 
 
