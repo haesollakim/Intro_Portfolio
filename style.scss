@@ -40,7 +40,6 @@ body {
     transition: 0.5s;
 }
 
-
 /* Scalable Vector Graphics */
 .myNameIsHaesollaKim {
     display: flex;
@@ -129,7 +128,6 @@ svg {
     }
 }
 
-
 /* 인트로 섹션 */
 .intro {
     display: none;
@@ -180,7 +178,6 @@ svg {
     z-index: 99;
 }
 
-
 /* 더 갤러리 */
 .bubble_1 {
     background-color: var(--color-skyblue);
@@ -189,7 +186,6 @@ svg {
 .tail_1 {
     border-top: var(--color-skyblue) solid 75px;
 }
-
 
 /* 팝업스토어 */
 .bubble_2 {
@@ -200,7 +196,6 @@ svg {
     border-top: var(--color-yellow) solid 75px;
 }
 
-
 /*수원한국어학원*/
 .bubble_3 {
     background-color: var(--color-red);
@@ -208,4 +203,17 @@ svg {
 }
 .tail_3 {
     border-top: var(--color-red) solid 75px;
+}
+
+/* 미디어 쿼리 */
+@media screen and (max-width: 768px) {
+    .intro {
+        padding: 5vw 5vh;
+    }
+
+    [class^="bubble"] {
+        width: 275px;
+        height: 100px;
+        font-size: 1.25rem;
+    }
 }

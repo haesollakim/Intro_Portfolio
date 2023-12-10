@@ -187,4 +187,16 @@ svg text:nth-child(11) {
 
 .tail_3 {
   border-top: var(--color-red) solid 75px;
+}
+
+/* 미디어 쿼리 */
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 5vw 5vh;
+  }
+  [class^=bubble] {
+    width: 275px;
+    height: 100px;
+    font-size: 1.25rem;
+  }
 }/*# sourceMappingURL=style.css.map */
