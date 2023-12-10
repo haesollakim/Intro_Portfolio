@@ -28,7 +28,6 @@
     margin: 0;
 }
 
-
 html,
 body {
     height: 100%;
@@ -119,61 +118,6 @@ svg {
     }
 }
 
-// svg text {
-//     font-size: 6rem;
-//     stroke-width: 3px;
-//     stroke: #fff;
-//     stroke-dashoffset: 1000;
-//     stroke-dasharray: 1000;
-//     fill: transparent;
-//     animation: stroke 1.5s linear;
-//     animation-fill-mode: forwards;
-// }
-// svg text:nth-child(1) {
-//     stroke: #ff4747;
-//     animation-delay: 0s;
-// }
-// svg text:nth-child(2) {
-//     stroke: #e6ac2f;
-//     animation-delay: 1s;
-// }
-// svg text:nth-child(3) {
-//     stroke: #c018d6;
-//     animation-delay: 0.5s;
-// }
-// svg text:nth-child(4) {
-//     stroke: #9bffa0;
-//     animation-delay: 0s;
-// }
-// svg text:nth-child(5) {
-//     stroke: #8fd6ff;
-//     animation-delay: 1s;
-// }
-// svg text:nth-child(6) {
-//     stroke: #f8ff99;
-//     animation-delay: 1.5s;
-// }
-// svg text:nth-child(7) {
-//     stroke: #ff4747;
-//     animation-delay: 1.5s;
-// }
-// svg text:nth-child(8) {
-//     stroke: #9bffa0;
-//     animation-delay: 0.5s;
-// }
-// svg text:nth-child(9) {
-//     stroke: #c018d6;
-//     animation-delay: 0s;
-// }
-// svg text:nth-child(10) {
-//     stroke: #8fd6ff;
-//     animation-delay: 1s;
-// }
-// svg text:nth-child(11) {
-//     stroke: #e6ac2f;
-//     animation-delay: 0.5s;
-// }
-
 @keyframes stroke {
     0% {
         stroke-dashoffset: 1000;
@@ -182,7 +126,8 @@ svg {
         stroke-dashoffset: 0;
     }
 }
-.main_section {
+
+.intro_section {
     display: none;
     width: 100%;
     padding: 5% 25%;
@@ -190,26 +135,9 @@ svg {
     -ms-overflow-style: none;
     scrollbar-width: none;
 
-    // border: 2px solid wheat;
-
     &::-webkit-scrollbar {
         display: none;
     }
-    
-}
-// .main_section::-webkit-scrollbar {
-//     display: none;
-// }
-
-.wrapper {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    border: 3px solid transparent;
-
-    // border: 2px solid beige;
-
-    // margin: 40px 0;
 }
 
 [class^="bubble"] {
@@ -222,20 +150,15 @@ svg {
     border-radius: 25px;
     background-color: var(--color-white);
     font-size: 2.25rem;
+    text-align: center;
     z-index: 100;
-
     margin-bottom: 55px;
-
-    // border: 3px solid green;
-
 
     a {
         color: var(--color-black);
         text-decoration: none;
         z-index: 101;
-
     }
-    
 }
 
 [class^="tail"] {
@@ -249,11 +172,11 @@ svg {
     border-right: transparent solid 50px;
     border-bottom: transparent solid 50px;
     z-index: 99;
-
 }
 
 .bubble_1 {
     background-color: var(--color-skyblue);
+    margin-left: auto;
 }
 
 .tail_1 {
@@ -271,6 +194,7 @@ svg {
 
 .bubble_3 {
     background-color: var(--color-red);
+    margin-left: auto;
 }
 
 .tail_3 {
